@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h3{
+    margin: 8px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 460px;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.active{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/9/92/Location_dot_red.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
